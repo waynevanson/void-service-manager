@@ -27,7 +27,7 @@ todo - look up the void docs for the required jargon
 vpm -{f,i,o} -{e|d|t} <service>
 
 # List a service
-vpm -{f,i,o} -l{e|d,t} 
+vpm -{f,i,o} -{e|d,t} 
 ```
 
 ### Managing Services
