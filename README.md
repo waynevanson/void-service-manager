@@ -34,6 +34,16 @@ vpm -{f,i,o} -l{e|d,t}
 
 Services can be enabled, disabled or tested.
 
+#### Enable
+
+
+
+#### Disable
+
+
+
+#### Test
+
 Tested services:
 - Don't turn on when machine boots
 - Don't restart the service when it stops
