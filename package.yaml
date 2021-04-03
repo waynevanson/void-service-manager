@@ -20,16 +20,20 @@ extra-source-files:
 description:         Please see the README on GitHub at <https://github.com/waynevanson/void-service-manager#readme>
 
 dependencies:
-- base >= 4.7 && < 5
+- base
+- filepath
 - directory
+- text
+- transformers
+- unix
 
 library:
   source-dirs: src
 
 executables:
-  void-service-manager-exe:
+  void-service-manager:
     main:                Main.hs
-    source-dirs:         app
+    source-dirs:         bin
     ghc-options:
     - -threaded
     - -rtsopts

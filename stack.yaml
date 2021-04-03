@@ -3,22 +3,8 @@
 # Some commonly used options have been documented as comments in this file.
 # For advanced use and comprehensive documentation of the format, please see:
 # https://docs.haskellstack.org/en/stable/yaml_configuration/
-
-# Resolver to choose a 'specific' stackage snapshot or a compiler version.
-# A snapshot resolver dictates the compiler version and the set of packages
-# to be used for project dependencies. For example:
-#
-# resolver: lts-3.5
-# resolver: nightly-2015-09-21
-# resolver: ghc-7.10.2
-#
-# The location of a snapshot can be provided as a file or url. Stack assumes
-# a snapshot provided as a file might change, whereas a url resource does not.
-#
-# resolver: ./custom-snapshot.yaml
-# resolver: https://example.com/snapshots/2018-01-01.yaml
 resolver: ghc-8.8.4
-
+pvp-bounds: both
 # User packages to be built.
 # Various formats can be used as shown in the example below.
 #
@@ -39,28 +25,18 @@ packages:
 # - git: https://github.com/commercialhaskell/stack.git
 #   commit: e7b331f14bcffb8367cd58fbfc8b40ec7642100a
 #
-# extra-deps: []
+extra-deps: 
+- these-1.1.1.1@sha256:e981c65228db5ae77a043631f74a1e4a4b770f7213866f584e3476b52512f1af,2631
+- assoc-1.0.2@sha256:a824e4f615469a27ad949dbf4907ba258bd6b459deebec00524c7bcb3f65cc9f,1205
+- hashable-1.3.1.0@sha256:d965e098e06cc585b201da6137dcb31c40f35eb7a937b833903969447985c076,3784
+- bifunctors-5.5.10@sha256:52ae8b959de7bb2d5ec38750b9bc2782c90b5bf48805d635eb6ac0cfeb5b1bd6,3738
+- tagged-0.8.6.1@sha256:98e446479bd3fe5bdc5fa63fec2a2f6998e1bb8cb6db1dee611716f588b3ab28,2770
+- base-orphans-0.8.4@sha256:9a70dc95761ab9a9d49a038a4599b7b7945d486d80ed1678f347445bc336f3e0,3149
+- comonad-5.0.8@sha256:a3a140be7a21d6ba16bf9102bf4c79455ff3213679311587bac45ba0723c8d7a,3492
+- th-abstraction-0.4.2.0@sha256:2c754cd15370f8c59c8e6c37d44428a78d0b4afc94e13b3958a1a50cd16f6e84,2124
+- distributive-0.6.2.1@sha256:2823eff05c6b093492efe804027e7cf82757221f934964c76106ac3248899b89,2874
+- indexed-traversable-0.1.1@sha256:e330ec1ab336ee2fb1eff117ebe3480d1663396fecd981f185b7123dc7941ae1,2469
+- transformers-compat-0.6.6@sha256:510709db2b12d1510d70de824ee544ca0a9e6f27aa7e299218cbacc0750b4a5e,5560
 
-# Override default flag values for local packages and extra-deps
+allow-newer: true
 # flags: {}
-
-# Extra package databases containing global packages
-# extra-package-dbs: []
-
-# Control whether we use the GHC we find on the path
-# system-ghc: true
-#
-# Require a specific version of stack, using version ranges
-# require-stack-version: -any # Default
-# require-stack-version: ">=2.5"
-#
-# Override the architecture used by stack, especially useful on Windows
-# arch: i386
-# arch: x86_64
-#
-# Extra directories used by stack for building
-# extra-include-dirs: [/path/to/dir]
-# extra-lib-dirs: [/path/to/dir]
-#
-# Allow a newer minor version of GHC than the snapshot specifies
-# compiler-check: newer-minor

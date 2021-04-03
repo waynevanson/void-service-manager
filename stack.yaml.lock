@@ -3,5 +3,82 @@
 # For more information, please see the documentation at:
 #   https://docs.haskellstack.org/en/stable/lock_files
 
-packages: []
+packages:
+- completed:
+    hackage: these-1.1.1.1@sha256:e981c65228db5ae77a043631f74a1e4a4b770f7213866f584e3476b52512f1af,2631
+    pantry-tree:
+      size: 351
+      sha256: f049b5e53b8636fba73497f36244cb8c2f1515ee8a07469335d260258d6f9551
+  original:
+    hackage: these-1.1.1.1@sha256:e981c65228db5ae77a043631f74a1e4a4b770f7213866f584e3476b52512f1af,2631
+- completed:
+    hackage: assoc-1.0.2@sha256:a824e4f615469a27ad949dbf4907ba258bd6b459deebec00524c7bcb3f65cc9f,1205
+    pantry-tree:
+      size: 290
+      sha256: 0f909dd8aecabf2eab787a14e679083056abf14f97ed473ba642dac031dffc9f
+  original:
+    hackage: assoc-1.0.2@sha256:a824e4f615469a27ad949dbf4907ba258bd6b459deebec00524c7bcb3f65cc9f,1205
+- completed:
+    hackage: hashable-1.3.1.0@sha256:d965e098e06cc585b201da6137dcb31c40f35eb7a937b833903969447985c076,3784
+    pantry-tree:
+      size: 937
+      sha256: 8ea12ecf91a4d6fd1f1f885faec1b3eeb4baa0db27ccff49072cfdd0c15833ba
+  original:
+    hackage: hashable-1.3.1.0@sha256:d965e098e06cc585b201da6137dcb31c40f35eb7a937b833903969447985c076,3784
+- completed:
+    hackage: bifunctors-5.5.10@sha256:52ae8b959de7bb2d5ec38750b9bc2782c90b5bf48805d635eb6ac0cfeb5b1bd6,3738
+    pantry-tree:
+      size: 1758
+      sha256: 02af9a75e05e866c3309004db7ec72f587ea4fe421aeeb65a42bd391f7e95d8d
+  original:
+    hackage: bifunctors-5.5.10@sha256:52ae8b959de7bb2d5ec38750b9bc2782c90b5bf48805d635eb6ac0cfeb5b1bd6,3738
+- completed:
+    hackage: tagged-0.8.6.1@sha256:98e446479bd3fe5bdc5fa63fec2a2f6998e1bb8cb6db1dee611716f588b3ab28,2770
+    pantry-tree:
+      size: 496
+      sha256: a700dbb711ac55fbbce6283b371379df6f96c3b5d953ce5015c038d82c2e28f0
+  original:
+    hackage: tagged-0.8.6.1@sha256:98e446479bd3fe5bdc5fa63fec2a2f6998e1bb8cb6db1dee611716f588b3ab28,2770
+- completed:
+    hackage: base-orphans-0.8.4@sha256:9a70dc95761ab9a9d49a038a4599b7b7945d486d80ed1678f347445bc336f3e0,3149
+    pantry-tree:
+      size: 1272
+      sha256: a0bef7fa45e025ba23bf18d11240abc02cf82a4b9c087833af719d19427fe799
+  original:
+    hackage: base-orphans-0.8.4@sha256:9a70dc95761ab9a9d49a038a4599b7b7945d486d80ed1678f347445bc336f3e0,3149
+- completed:
+    hackage: comonad-5.0.8@sha256:a3a140be7a21d6ba16bf9102bf4c79455ff3213679311587bac45ba0723c8d7a,3492
+    pantry-tree:
+      size: 1618
+      sha256: c448878c6b55dece92a8f76566f13dff9fafe46fe911598f1353ae7b55153f41
+  original:
+    hackage: comonad-5.0.8@sha256:a3a140be7a21d6ba16bf9102bf4c79455ff3213679311587bac45ba0723c8d7a,3492
+- completed:
+    hackage: th-abstraction-0.4.2.0@sha256:2c754cd15370f8c59c8e6c37d44428a78d0b4afc94e13b3958a1a50cd16f6e84,2124
+    pantry-tree:
+      size: 670
+      sha256: 4d7de058f3dd57de2a89ea92e812c37ab5418d2fbac620db8c815e7eb4d856ac
+  original:
+    hackage: th-abstraction-0.4.2.0@sha256:2c754cd15370f8c59c8e6c37d44428a78d0b4afc94e13b3958a1a50cd16f6e84,2124
+- completed:
+    hackage: distributive-0.6.2.1@sha256:2823eff05c6b093492efe804027e7cf82757221f934964c76106ac3248899b89,2874
+    pantry-tree:
+      size: 735
+      sha256: bf97136853fad2c7e4f8800248ace71be3a125aa262313626f6cc6708634f57a
+  original:
+    hackage: distributive-0.6.2.1@sha256:2823eff05c6b093492efe804027e7cf82757221f934964c76106ac3248899b89,2874
+- completed:
+    hackage: indexed-traversable-0.1.1@sha256:e330ec1ab336ee2fb1eff117ebe3480d1663396fecd981f185b7123dc7941ae1,2469
+    pantry-tree:
+      size: 495
+      sha256: 52d8bab517f47381ad864f636c89c5d23bc862c28d7bd826f930975c3c37a228
+  original:
+    hackage: indexed-traversable-0.1.1@sha256:e330ec1ab336ee2fb1eff117ebe3480d1663396fecd981f185b7123dc7941ae1,2469
+- completed:
+    hackage: transformers-compat-0.6.6@sha256:510709db2b12d1510d70de824ee544ca0a9e6f27aa7e299218cbacc0750b4a5e,5560
+    pantry-tree:
+      size: 1777
+      sha256: e53f7b8deb576db7baa6e4c13a7c9904cd247f6e4807bd12a058d1527197064e
+  original:
+    hackage: transformers-compat-0.6.6@sha256:510709db2b12d1510d70de824ee544ca0a9e6f27aa7e299218cbacc0750b4a5e,5560
 snapshots: []
