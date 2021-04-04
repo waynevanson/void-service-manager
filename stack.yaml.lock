@@ -81,4 +81,158 @@ packages:
       sha256: e53f7b8deb576db7baa6e4c13a7c9904cd247f6e4807bd12a058d1527197064e
   original:
     hackage: transformers-compat-0.6.6@sha256:510709db2b12d1510d70de824ee544ca0a9e6f27aa7e299218cbacc0750b4a5e,5560
+- completed:
+    hackage: validation-1.1.1@sha256:3e76a5e7ee032b130275a77ec9821b6a7db99dc08d416fa45c3d16706c03dc5f,3629
+    pantry-tree:
+      size: 344
+      sha256: 6ff7dd50c672e7432537239ede2edda1efebee6e24afc75745ea7be71ef90687
+  original:
+    hackage: validation-1.1.1@sha256:3e76a5e7ee032b130275a77ec9821b6a7db99dc08d416fa45c3d16706c03dc5f,3629
+- completed:
+    hackage: lens-5.0.1@sha256:d44156c542b1630337a07cac5824f1846badeb59043adbe8c4e9ed1da89cc13d,15026
+    pantry-tree:
+      size: 8291
+      sha256: 017fcde6fd1f792bc7509375c8aacbbd09b62f16b215e1ae3a261aa642b564b0
+  original:
+    hackage: lens-5.0.1@sha256:d44156c542b1630337a07cac5824f1846badeb59043adbe8c4e9ed1da89cc13d,15026
+- completed:
+    hackage: semigroupoids-5.3.5@sha256:5ccdfc9937718901b2c4a6829381bc62ebd1368945f89b4afe3ec5d5beae6a12,7221
+    pantry-tree:
+      size: 1834
+      sha256: b0127bd0e5423c6ac9ae47053e903acb75ac08238d47b26e823131887ec0108f
+  original:
+    hackage: semigroupoids-5.3.5@sha256:5ccdfc9937718901b2c4a6829381bc62ebd1368945f89b4afe3ec5d5beae6a12,7221
+- completed:
+    hackage: semigroups-0.19.1@sha256:ecae129621e0d2f77bef2f01e4458c2e0567ab6e1f39579c61d7cec8058ebb0e,6262
+    pantry-tree:
+      size: 534
+      sha256: 61160272cccf0dcffe7fe23b7644412b959a8ec232bed4d43be235176f0bd90b
+  original:
+    hackage: semigroups-0.19.1@sha256:ecae129621e0d2f77bef2f01e4458c2e0567ab6e1f39579c61d7cec8058ebb0e,6262
+- completed:
+    hackage: call-stack-0.3.0@sha256:dc369179410fd39542efde04778d1c4a18a015b3cf4b1703d9c88e07d58ece20,1105
+    pantry-tree:
+      size: 501
+      sha256: db9e7cef1195c13cc9ceede808a7be464fe0c38fcdfcbf5224bfa3fe6411a460
+  original:
+    hackage: call-stack-0.3.0@sha256:dc369179410fd39542efde04778d1c4a18a015b3cf4b1703d9c88e07d58ece20,1105
+- completed:
+    hackage: contravariant-1.5.3@sha256:e59a7742e725f94fc6578e3593cd3f6d4e3d46a9510c3a782e5fe5e5f238e3ce,3013
+    pantry-tree:
+      size: 652
+      sha256: 7a77163cd7064649944f0fe93c0f0550f6a8979c83df2ec4c7c6c96e6d895c3d
+  original:
+    hackage: contravariant-1.5.3@sha256:e59a7742e725f94fc6578e3593cd3f6d4e3d46a9510c3a782e5fe5e5f238e3ce,3013
+- completed:
+    hackage: exceptions-0.10.4@sha256:1729ef26a611ae78aa58cdd34192aff710cbaa6d631dd042ddfb63556d00b52c,2796
+    pantry-tree:
+      size: 908
+      sha256: 6689458f5d183f8efda66f918f7bd4b7ac28548defbef53c7e174c2cdf6b9f18
+  original:
+    hackage: exceptions-0.10.4@sha256:1729ef26a611ae78aa58cdd34192aff710cbaa6d631dd042ddfb63556d00b52c,2796
+- completed:
+    hackage: free-5.1.6@sha256:8289b615eeeedd0b95ae956f0c5ae775e35bbd16588550209ce5551af19161a6,4895
+    pantry-tree:
+      size: 3308
+      sha256: feb9e49f3db557d166a88366ad3c45bb70f2e4fbbc67d4d0d78fddc54f0962a8
+  original:
+    hackage: free-5.1.6@sha256:8289b615eeeedd0b95ae956f0c5ae775e35bbd16588550209ce5551af19161a6,4895
+- completed:
+    hackage: indexed-traversable-instances-0.1@sha256:3aaf97040001bbe583e29c2b9c7d41660df265e6565a0d2ac09a3ed5b8bc21be,2874
+    pantry-tree:
+      size: 427
+      sha256: d69630ba4b548b72eed15553586ce7b1e574cd8e4cc5b30d506ab3a697b26502
+  original:
+    hackage: indexed-traversable-instances-0.1@sha256:3aaf97040001bbe583e29c2b9c7d41660df265e6565a0d2ac09a3ed5b8bc21be,2874
+- completed:
+    hackage: kan-extensions-5.2.2@sha256:c9ad889deb63a2c6a0af95bc6ccefadd12633b711097e36af32935d54b901179,2894
+    pantry-tree:
+      size: 1421
+      sha256: 723a3939cb3e0723e3d647b77dfd60b072759e47c0f864d4cbd8c0c2557e35d4
+  original:
+    hackage: kan-extensions-5.2.2@sha256:c9ad889deb63a2c6a0af95bc6ccefadd12633b711097e36af32935d54b901179,2894
+- completed:
+    hackage: parallel-3.2.2.0@sha256:421ce1717610bab82969572b96be89d83ea8d8afe7751cb54d80b996fff063d3,1817
+    pantry-tree:
+      size: 392
+      sha256: 6bfa287011af901266cde7a7616f0f1d46afd60bd1584d8eba87e86028f0ac72
+  original:
+    hackage: parallel-3.2.2.0@sha256:421ce1717610bab82969572b96be89d83ea8d8afe7751cb54d80b996fff063d3,1817
+- completed:
+    hackage: profunctors-5.6.2@sha256:4db306297d827cf65a32d9124d6f1a23105479ebb1988783006578bc5d4209da,2377
+    pantry-tree:
+      size: 1588
+      sha256: 5e640a3a4613c8850d19d322b4ec8444345deb0cf4ee020590da82e2d657be26
+  original:
+    hackage: profunctors-5.6.2@sha256:4db306297d827cf65a32d9124d6f1a23105479ebb1988783006578bc5d4209da,2377
+- completed:
+    hackage: reflection-2.1.6@sha256:044acb7caf41a9d8246878f849baed2dffbc4582d0a1e5c7c079d4287239e970,3976
+    pantry-tree:
+      size: 1062
+      sha256: f5aeb758b72cdb290de887c0db7297071c92f263870b0aee64801f420b85b83d
+  original:
+    hackage: reflection-2.1.6@sha256:044acb7caf41a9d8246878f849baed2dffbc4582d0a1e5c7c079d4287239e970,3976
+- completed:
+    hackage: strict-0.4.0.1@sha256:08cf72ad570fddfe3b3424117bf20a303a1fb21047b40c1d6c8004c0e3e02a0b,4124
+    pantry-tree:
+      size: 654
+      sha256: f490c0ecce59996cdd154e753de05733a3edbb9f65d1b768133e6f79f73de572
+  original:
+    hackage: strict-0.4.0.1@sha256:08cf72ad570fddfe3b3424117bf20a303a1fb21047b40c1d6c8004c0e3e02a0b,4124
+- completed:
+    hackage: unordered-containers-0.2.13.0@sha256:6310c636f92ed4908fdd0de582b6be31c2851c7b5f2ec14e9f416eb94df7a078,4978
+    pantry-tree:
+      size: 1388
+      sha256: 0cdd70d603c621e2b184ff7baa232af8a88a01745710b975b97df63e92c700dd
+  original:
+    hackage: unordered-containers-0.2.13.0@sha256:6310c636f92ed4908fdd0de582b6be31c2851c7b5f2ec14e9f416eb94df7a078,4978
+- completed:
+    hackage: vector-0.12.2.0@sha256:6e81683c2c19b4aea58f1f453547cb03851b3cfd4031b8eb82abfa4643a13494,7953
+    pantry-tree:
+      size: 3841
+      sha256: 666939d042ad8880bb66f4c00ebe71167354649ed4f1e4ddce99de355921c25e
+  original:
+    hackage: vector-0.12.2.0@sha256:6e81683c2c19b4aea58f1f453547cb03851b3cfd4031b8eb82abfa4643a13494,7953
+- completed:
+    hackage: StateVar-1.2.1@sha256:b8bea664120dc78f5c15d9b8c0947d51dbc58a0b63ee49971fa7caac9f3e0845,1642
+    pantry-tree:
+      size: 314
+      sha256: a754fbce030016de2534e05dd6abb987daf46e2d5e34f11ea200854869220cfc
+  original:
+    hackage: StateVar-1.2.1@sha256:b8bea664120dc78f5c15d9b8c0947d51dbc58a0b63ee49971fa7caac9f3e0845,1642
+- completed:
+    hackage: adjunctions-4.4@sha256:2738dd5f5d5e93749adb14a05472e58a96a75d0f299e46371c6f46dc4e97daf9,3067
+    pantry-tree:
+      size: 1560
+      sha256: b9b90a45e77481a8f24baa9b61dbf862199ec736b99344b5c7ae9c905f0425d8
+  original:
+    hackage: adjunctions-4.4@sha256:2738dd5f5d5e93749adb14a05472e58a96a75d0f299e46371c6f46dc4e97daf9,3067
+- completed:
+    hackage: invariant-0.5.4@sha256:04596946f13f4ec241eae5382c3c19eefebf6a7e2e5e60a4b8187c9115f8594a,3400
+    pantry-tree:
+      size: 650
+      sha256: a25ae15c236b73849c1389a9f314ea2a447b2b1a370349df5227e37229629679
+  original:
+    hackage: invariant-0.5.4@sha256:04596946f13f4ec241eae5382c3c19eefebf6a7e2e5e60a4b8187c9115f8594a,3400
+- completed:
+    hackage: primitive-0.7.1.0@sha256:f6357d5720c1c665096c3e011467daf443198b786a708d2ff926958a24d508d4,2728
+    pantry-tree:
+      size: 1376
+      sha256: 23b707600721b68533c0d4a4d4358c60946b39c2030747837ab7285530b6f6f0
+  original:
+    hackage: primitive-0.7.1.0@sha256:f6357d5720c1c665096c3e011467daf443198b786a708d2ff926958a24d508d4,2728
+- completed:
+    hackage: transformers-base-0.4.5.2@sha256:e4d8155470905ba2942033a1537fc4cf91927d1c9b34693fd57ddf3bc02334af,1550
+    pantry-tree:
+      size: 275
+      sha256: de1ab09cfb378c269105d6fcfa0fa9820081c2d1d91c87503a5f10068a4119e7
+  original:
+    hackage: transformers-base-0.4.5.2@sha256:e4d8155470905ba2942033a1537fc4cf91927d1c9b34693fd57ddf3bc02334af,1550
+- completed:
+    hackage: void-0.7.3@sha256:13d30f62fcdf065e595d679d4ac8b4b0c1bb1a1b73db7b5b5a8f857cb5c8a546,1857
+    pantry-tree:
+      size: 584
+      sha256: 5730b45e857424c97d24ee1cf530be1fc782cd000221ac97b5568be886cbbc2b
+  original:
+    hackage: void-0.7.3@sha256:13d30f62fcdf065e595d679d4ac8b4b0c1bb1a1b73db7b5b5a8f857cb5c8a546,1857
 snapshots: []

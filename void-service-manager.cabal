@@ -25,8 +25,11 @@ source-repository head
 
 library
   exposed-modules:
+      Control.IOEither
       Data.DisjunctBool
-      VSM
+      VSM.Configuration
+      VSM.List
+      VSM.Manage
   other-modules:
       Paths_void_service_manager
   hs-source-dirs:
@@ -38,6 +41,7 @@ library
     , text
     , transformers
     , unix
+    , validation
   default-language: Haskell2010
 
 executable void-service-manager
@@ -54,6 +58,7 @@ executable void-service-manager
     , text
     , transformers
     , unix
+    , validation
     , void-service-manager
   default-language: Haskell2010
 
@@ -72,5 +77,6 @@ test-suite void-service-manager-test
     , text
     , transformers
     , unix
+    , validation
     , void-service-manager
   default-language: Haskell2010

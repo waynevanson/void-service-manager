@@ -26,6 +26,7 @@ dependencies:
 - text
 - transformers
 - unix
+- validation
 
 library:
   source-dirs: src
